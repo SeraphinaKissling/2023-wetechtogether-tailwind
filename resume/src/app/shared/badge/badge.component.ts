@@ -7,6 +7,6 @@ import {Component, Input} from '@angular/core';
 })
 export class BadgeComponent {
   @Input() badgeName = '';
-  @Input() backgroundColor = 'bg-dark-blue';
+  @Input() backgroundColor = 'bg-rladies';
 
 }
