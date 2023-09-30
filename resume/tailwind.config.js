@@ -14,7 +14,9 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'white': '#fafafa',
-      'text-gray': '#9CA3AF'
+      'text-gray': '#9CA3AF',
+      'rladies-light': '#faf5f9',
+      'rladies': '#88398a',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

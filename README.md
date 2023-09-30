@@ -34,6 +34,8 @@ To start the app, run
 ```
 cd resume
 npm install
+npm install -g @angular/cli
+npm run ng serve
 ng serve
 ```
 This will build and serve your app, which will be hosted on http://localhost:4200

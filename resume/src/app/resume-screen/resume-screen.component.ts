@@ -10,12 +10,12 @@ import {Information} from "../information-card/information";
 })
 export class ResumeScreenComponent {
     title = 'resume';
-    progList = ['Java', 'Kotlin', 'Dart', 'Python', 'Dart', 'Haskell', 'Prolog', 'JavaScript']
-    otherSkills = ['Git', 'Scrum', 'Google Colab']
+    progList = ['R', 'SQL', 'WhereScape']
+    otherSkills = ['Git', 'Scrum']
 
-    languages: { [key: string]: string } = {'German': 'C2', 'French': 'C1', 'English': 'C2', 'Italian': 'B2'};
+    languages: { [key: string]: string } = {'German': 'C2', 'English': 'C2', 'French': 'C1'};
 
-    aboutMeText = 'I am a dedicated software engineer at ipt with a strong background, having graduated from the University of Bern. My professional journey is fueled by a profound passion for artificial intelligence and its transformative potential. With a solid foundation in both academics and industry, I am committed to crafting innovative solutions that harness the power of AI to drive technological advancement.\n'
+    aboutMeText = 'I want to contribute to our healthcare system by making the most out of our health data. Time and again, I am fascinated by all the steps and love for details needed in the process from collecting data to gaining valuable insights for patients.\n'
 
     experiences: Experience[] = [
         {
@@ -73,10 +73,10 @@ export class ResumeScreenComponent {
         }
     ]
     information: Information = {
-        birthday:'16 January 1994',
-        addressStreet: 'Musterstrasse 7',
-        addressCity: '3008 Bern',
-        phoneNumber: '+4179 123 45 67',
-        github:'shamalle'
+        birthday:'09 January 1995',
+        addressStreet: 'Sägestrasse 57',
+        addressCity: '5600 Lenzburg',
+        phoneNumber: '+4178 922 09 01',
+        github:'skissling'
     }
 }
